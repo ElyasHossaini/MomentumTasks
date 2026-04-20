@@ -261,6 +261,16 @@
   color: rgba(255, 255, 255, 0.72);
 }
 
+.services-section__image {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 1rem;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-soft);
+}
+
 .section-cta {
   display: flex;
   flex-wrap: wrap;

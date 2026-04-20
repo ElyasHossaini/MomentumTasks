@@ -34,7 +34,7 @@ export const valueProposition =
   'We provide compassionate, culturally respectful home care while helping families safely navigate private services and publicly funded AHS-linked pathways where they apply.'
 
 export const differentiation =
-  'An integrated approach: culturally responsive caregiving, rapid post-discharge support when capacity allows, and practical help understanding Alberta Health Services Continuing Care and Alberta Blue Cross–supported programs.'
+  'An integrated approach: culturally responsive caregiving, rapid post-discharge support when capacity allows, and practical help understanding Alberta Health Services Continuing Care and Alberta Blue Cross-supported programs.'
 
 export const services = [
   {
@@ -50,7 +50,7 @@ export const services = [
   {
     id: 'homemaking',
     title: 'Homemaking',
-    summary: 'Sanitation and household tasks that support health and safety in the living space—never a standalone service.',
+    summary: 'Sanitation and household tasks that support health and safety in the living space, never a standalone service.',
     bullets: [
       'Essential tasks such as client bathroom cleaning, dishes, mobility equipment cleaning, laundry, vacuuming, and garbage removal as authorized',
       'Light meal preparation and grocery support where included in your plan',
@@ -60,7 +60,7 @@ export const services = [
   {
     id: 'respite',
     title: 'Respite care',
-    summary: 'Day, evening, or night support so unpaid caregivers can rest—authorized hours apply.',
+    summary: 'Day, evening, or night support so unpaid caregivers can rest; authorized hours apply.',
     bullets: [
       'Hourly, daytime, and evening support; overnight and weekend subject to staffing availability',
       'Planned relief aligned with your case manager’s service plan',
@@ -70,7 +70,7 @@ export const services = [
   {
     id: 'companionship',
     title: 'Companionship & social connection',
-    summary: 'Warm engagement for seniors experiencing isolation—always within the authorized scope of care.',
+    summary: 'Warm engagement for seniors experiencing isolation, always within the authorized scope of care.',
     bullets: [
       'Conversation, routines, and meaningful activities at home',
       'Culturally respectful companionship that honours preference and pace',
@@ -78,20 +78,11 @@ export const services = [
     ],
   },
   {
-    id: 'condition-support',
-    title: 'Dementia, mobility, post-discharge & isolation support',
-    summary: 'Condition-focused help is provided according to your standardized assessment and signed care plan.',
-    bullets: [
-      'Dementia-informed approaches, mobility assistance, post-hospital transition support, and companionship for isolated seniors—when included in your plan',
-      'Service types and hours are determined by your AHS case manager; we do not replace assessment decisions',
-    ],
-  },
-  {
     id: 'medication-transport',
     title: 'Medication reminders & transportation support',
     summary: 'Non-clinical reminders and practical escort support only.',
     bullets: [
-      'Medication reminders only—caregivers do not administer medications unless licensed professionals are formally involved',
+      'Medication reminders only, caregivers do not administer medications unless licensed professionals are formally involved',
       'Transportation: escort and accompaniment support only; not medical transport unless a partnered provider is arranged',
     ],
   },
@@ -101,12 +92,12 @@ export const services = [
 export const servicesPageHeading = {
   title: 'Our Services',
   subtitle:
-    'Culturally tailored support for your family—and practical, respectful help at home, including pathways connected to AHS and Alberta Blue Cross where they apply.',
+    'Culturally tailored support for your family, and practical, respectful help at home, including pathways connected to AHS and Alberta Blue Cross where they apply.',
 } as const
 
 export const servicesShowcaseIds = ['personal-care', 'homemaking', 'respite', 'companionship'] as const
 
-export const servicesMoreIds = ['condition-support', 'medication-transport'] as const
+export const servicesMoreIds = ['medication-transport'] as const
 
 export const servicesShowcaseCopy = {
   'personal-care': {
@@ -120,7 +111,7 @@ export const servicesShowcaseCopy = {
   },
   homemaking: {
     icon: 'home' as const,
-    tagline: 'Light housekeeping that keeps the home healthy—and gives your family breathing room.',
+    tagline: 'Light housekeeping that keeps the home healthy, and gives your family breathing room.',
     bullets: [
       'Sanitation tasks in the living space (bathroom, dishes, laundry, floors)',
       'Meal preparation and essential errands when included in your plan',
@@ -129,7 +120,7 @@ export const servicesShowcaseCopy = {
   },
   respite: {
     icon: 'clock' as const,
-    tagline: 'Short-term relief for family caregivers—with hours set by your case manager.',
+    tagline: 'Short-term relief for family caregivers, with hours set by your case manager.',
     bullets: [
       'Daytime, evening, or night support as authorized',
       'Flexible visit lengths when staffing allows',
@@ -145,18 +136,9 @@ export const servicesShowcaseCopy = {
       'Care coordinator loop when needs seem to be changing',
     ],
   },
-  'condition-support': {
-    icon: 'shield' as const,
-    tagline: 'Focused support for dementia, mobility, post-discharge recovery, and isolation—when in your plan.',
-    bullets: [
-      'Dementia-aware approaches and safer mobility habits',
-      'Help settling in after hospital discharge when authorized',
-      'Always aligned to your AHS assessment and signed care plan',
-    ],
-  },
   'medication-transport': {
     icon: 'route' as const,
-    tagline: 'Reminders and escorted support—non-clinical, within the boundaries of your authorization.',
+    tagline: 'Reminders and escorted support, non-clinical, within the boundaries of your authorization.',
     bullets: [
       'Medication reminders only (no administration unless licensed roles apply)',
       'Escort and accompaniment for errands and appointments',
@@ -175,10 +157,10 @@ export const servicePlanExplainer = {
 export const cdhciExplainer = {
   title: 'CDHCI & publicly supported care',
   lead:
-    'Client Directed Home Care Invoicing (CDHCI) is a 100% publicly funded pathway for clients who qualify, for the authorization period set out in their paperwork—administered through Alberta Blue Cross. We also support private-pay or parallel services when families choose additional help beyond what is authorized.',
+    'Client Directed Home Care Invoicing (CDHCI) is a 100% publicly funded pathway for clients who qualify, for the authorization period set out in their paperwork, administered through Alberta Blue Cross. We also support private-pay or parallel services when families choose additional help beyond what is authorized.',
   bullets: [
-    'Coverage and hours depend on AHS assessment and clinical criteria—not on a website form',
-    'Homemaking is only covered alongside personal care or respite—we state this clearly for transparency',
+    'Coverage and hours depend on AHS assessment and clinical criteria, not on a website form',
+    'Homemaking is only covered alongside personal care or respite; we state this clearly for transparency',
     'We help you understand realistic next steps; final decisions rest with AHS and applicable programs',
   ],
 }
@@ -187,19 +169,19 @@ export const howItWorksIntro = {
   kicker: 'Getting started',
   title: 'How It Works',
   subtitle:
-    'From your first call to ongoing care, we keep the process simple and stress-free—while guiding you through AHS Continuing Care steps where they apply.',
+    'From your first call to ongoing care, we keep the process simple and stress-free, while guiding you through AHS Continuing Care steps where they apply.',
 } as const
 
 export const howItWorks = [
   {
     step: '1',
     title: 'Initial Contact',
-    body: 'Reach us by phone, email, or our contact forms. We listen to your situation, explain realistic options, and outline next steps—without promising funding or hours we cannot authorize.',
+    body: 'Reach us by phone, email, or our contact forms. We listen to your situation, explain realistic options, and outline next steps, without promising funding or hours we cannot authorize.',
   },
   {
     step: '2',
     title: 'AHS Assessment',
-    body: 'An AHS Home Care case manager assesses needs and approves care hours when publicly supported pathways apply. We help you understand what to expect and how to prepare—without replacing official clinical decisions.',
+    body: 'An AHS Home Care case manager assesses needs and approves care hours when publicly supported pathways apply. We help you understand what to expect and how to prepare, without replacing official clinical decisions.',
   },
   {
     step: '3',
@@ -209,14 +191,14 @@ export const howItWorks = [
   {
     step: '4',
     title: 'Ongoing Support',
-    body: 'Dependable visits, clear communication with families and partners, and thoughtful adjustments as routines or needs change—always within your approved scope of service.',
+    body: 'Dependable visits, clear communication with families and partners, and thoughtful adjustments as routines or needs change, always within your approved scope of service.',
   },
 ] as const
 
 export const whyChooseUs = [
   'Culturally responsive, community-minded care in Calgary and nearby areas when capacity allows',
   'Rapid support for urgent post-discharge or high-need situations when staffing permits (often 24–72 hours after plan confirmation)',
-  'Help navigating AHS Continuing Care and Alberta Blue Cross pathways where applicable—without implying government affiliation',
+  'Help navigating AHS Continuing Care and Alberta Blue Cross pathways where applicable, without implying government affiliation',
   'Caregivers screened with criminal record checks and orientation to client safety protocols',
   'Training emphasis: personal care skills, dementia awareness, mobility assistance, infection prevention, and respectful communication',
   '24/7 inquiry availability; visit schedules follow staffing and your authorized hours',
@@ -225,7 +207,7 @@ export const whyChooseUs = [
 export const compliance = {
   bullets: [
     'Business registration, liability insurance, and documented caregiver screening protocols',
-    'Operations aligned with Alberta Continuing Care Health Service Standards and applicable requirements—we are an independent provider, not a government agency',
+    'Operations aligned with Alberta Continuing Care Health Service Standards and applicable requirements; we are an independent provider, not a government agency',
     'Caregivers must pass criminal record checks; we describe screening as a standard requirement (not an absolute guarantee of outcomes)',
     'Commitment to client rights, dignity, safety, and ethical non-medical care',
   ],
@@ -243,14 +225,14 @@ export const aboutNarrative = {
   storyLead:
     'Momentum Tasks Homecare exists to close gaps in post-discharge home support and to offer culturally responsive care for seniors who deserve stability after functional change or hospital discharge.',
   experience:
-    'Our team draws on more than fifteen years of combined experience across primary care, acute care, and community settings—supporting families at the bedside, in the home, and inside complex navigation moments.',
+    'Our team draws on more than fifteen years of combined experience across primary care, acute care, and community settings, supporting families at the bedside, in the home, and inside complex navigation moments.',
   values: ['Dignity', 'Cultural respect', 'Safety', 'Family-centred partnership', 'System accessibility'],
   mission:
     'Deliver compassionate, non-medical home care that honours culture, strengthens safety, and helps families understand both private services and publicly supported pathways.',
   vision:
     'Be a trusted Calgary partner for seniors and families who want dependable caregivers and honest guidance while Alberta systems do their work.',
   leadershipNote:
-    'Leadership bios can be added when you are ready; for now we focus on how we care, how we screen, and how we communicate.',
+    'Leadership bios can be added when you are ready; for now, we focus on how we care, how we screen, and how we communicate.',
 }
 
 export const operations = {
@@ -262,7 +244,7 @@ export const operations = {
 export const faqItems = [
   {
     q: 'Do you guarantee publicly funded care?',
-    a: 'No. You may be eligible for publicly supported programs (including CDHCI) depending on AHS assessment, clinical criteria, and authorization. We use clear “may be eligible” language and never promise “fully funded” or “guaranteed free” care.',
+    a: 'No. You may be eligible for publicly supported programs (including CDHCI) depending on AHS assessment, clinical criteria, and authorization. We use clear "may be eligible" language and never promise "fully funded" or "guaranteed free" care.',
   },
   {
     q: 'What is CDHCI?',
@@ -278,7 +260,7 @@ export const faqItems = [
   },
   {
     q: 'What transportation help is available?',
-    a: 'Escort and accompaniment support for errands and appointments—not medical transport unless a separate partnered provider is involved.',
+    a: 'Escort and accompaniment support for errands and appointments, not medical transport unless a separate partnered provider is involved.',
   },
   {
     q: 'Do you offer live-in or 24-hour care?',

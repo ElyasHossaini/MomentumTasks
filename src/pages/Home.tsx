@@ -22,7 +22,6 @@ const homeServiceOrder = [
   'homemaking',
   'respite',
   'companionship',
-  'condition-support',
   'medication-transport',
 ] as const
 
@@ -75,6 +74,12 @@ export function Home() {
         <div className="shell">
           <div className="section-head">
             <h2>Home care services</h2>
+            <img
+              src="/stockimages/momentumimageservices.jpeg"
+              alt="Overview image of authorized non-clinical home care services"
+              className="services-section__image"
+              loading="lazy"
+            />
           </div>
           <ServiceGrid items={homeServices} showConsultCta />
           <ServiceCtas />
@@ -168,7 +173,7 @@ export function Home() {
         <div className="shell">
           <div className="section-head section-head--on-dark">
             <h2>Frequently asked questions</h2>
-            <p>Essential answers for objections, funding language, and scope—tuned for search and clarity.</p>
+            <p>Essential answers for objections, funding language, and scope, tuned for search and clarity.</p>
           </div>
           <div className="faq faq--on-dark">
             {faqItems.map((item) => (
