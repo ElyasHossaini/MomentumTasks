@@ -39,13 +39,6 @@ function ServiceIcon({ name }: { name: IconName }) {
           <path strokeLinecap="round" d="M3 19c0-2.8 2.5-5 6-5s6 2.2 6 5M14 19c0-2 2-3.5 4-3.5" />
         </svg>
       )
-    case 'shield':
-      return (
-        <svg {...a} aria-hidden>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 3 20 7v6c0 4-3 8-8 9-5-1-8-5-8-9V7l8-4Z" />
-          <path strokeLinecap="round" strokeLinejoin="round" d="m9 12 2 2 4-4" />
-        </svg>
-      )
     case 'route':
       return (
         <svg {...a} aria-hidden>

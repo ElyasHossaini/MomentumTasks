@@ -9,7 +9,7 @@ export function Footer() {
         <div>
           <p className="site-footer__brand">Momentum Tasks Homecare</p>
           <p className="site-footer__tag">
-            Compassionate, culturally respectful home care in Calgary—supporting families through private services and
+            Compassionate, culturally respectful home care in Calgary, supporting families through private services and
             publicly supported pathways where applicable.
           </p>
           <p className="site-footer__disclaimer">
