@@ -1,0 +1,19 @@
+.ahs-fallback {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-family: var(--font-ui);
+  white-space: nowrap;
+}
+
+.ahs-fallback__line1 {
+  color: var(--ahs-blue);
+  font-size: 0.82rem;
+}
+
+.ahs-fallback__line2 {
+  color: var(--ahs-green);
+  font-size: 0.82rem;
+}

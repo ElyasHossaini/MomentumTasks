@@ -1,0 +1,116 @@
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.service-grid--dense {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+@media (max-width: 720px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.5rem 1.5rem 1.35rem;
+  box-shadow: var(--shadow-soft);
+  text-align: left;
+}
+
+.service-card__title {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--navy);
+}
+
+.service-card__summary {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.service-card__bullets {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.service-card--with-cta {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.service-card__cta {
+  margin-top: auto;
+  padding-top: 1.15rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem 0.75rem;
+}
+
+.service-card__learn-btn.btn {
+  background: #f1f5f9;
+  color: var(--navy);
+  border-color: rgba(15, 23, 42, 0.12);
+  box-shadow: none;
+  padding-inline: 1rem;
+}
+
+.service-card__learn-btn.btn:hover {
+  background: #e8eef5;
+  border-color: rgba(29, 161, 184, 0.35);
+  color: var(--navy-2);
+}
+
+.service-card__consult-btn.btn {
+  padding-inline: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 420px) {
+  .service-card__cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .service-card__consult-btn.btn,
+  .service-card__learn-btn.btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.service-grid__cta-row {
+  margin: 1.5rem 0 0;
+  text-align: left;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.service-grid__dot {
+  margin: 0 0.5rem;
+}
+
+.text-link {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}

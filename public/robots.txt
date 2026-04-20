@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://momentumtask.homecare.ca/sitemap.xml
