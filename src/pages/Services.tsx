@@ -2,7 +2,6 @@ import { TrustStrip } from '../components/TrustStrip'
 import { ButtonLink } from '../components/ButtonLink'
 import { ServiceShowcaseGrid } from '../components/ServiceShowcaseGrid'
 import {
-  approvedSupportWording,
   cdhciExplainer,
   fundingDisclaimer,
   publicFundingTeaser,
@@ -23,7 +22,6 @@ export function Services() {
             <p className="services-landing__subtitle">{servicesPageHeading.subtitle}</p>
           </div>
           <ServiceShowcaseGrid ids={servicesShowcaseIds} />
-          <p className="services-landing__note">{approvedSupportWording}</p>
           <TrustStrip />
         </div>
       </section>

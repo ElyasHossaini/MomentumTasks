@@ -76,13 +76,6 @@ export function Home() {
         <div className="shell">
           <div className="section-head">
             <h2>Home care services</h2>
-            <p>
-              Six concise cards mirror the Sahaba-style scan format. Full detail, numbering, and CDHCI context live on the{' '}
-              <Link to="/services" className="text-link">
-                Services
-              </Link>{' '}
-              page.
-            </p>
           </div>
           <ServiceGrid items={homeServices} showConsultCta />
           <ServiceCtas />
