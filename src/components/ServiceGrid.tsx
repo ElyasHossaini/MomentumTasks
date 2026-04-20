@@ -31,9 +31,6 @@ export function ServiceGrid({
           </ul>
           {showConsultCta ? (
             <div className="service-card__cta">
-              <ButtonLink to="/#how-it-works" variant="secondary" className="service-card__learn-btn">
-                Learn how
-              </ButtonLink>
               <ButtonLink to="/contact#consultation" variant="primary" className="service-card__consult-btn">
                 {hero.primaryCta}
               </ButtonLink>

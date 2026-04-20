@@ -88,9 +88,6 @@ export function ServiceShowcaseGrid({ ids, sectionTitle }: Props) {
                 ))}
               </ul>
               <div className="svc-card__actions">
-                <Link className="svc-card__btn svc-card__btn--muted" to="/services#cdhci">
-                  Learn how
-                </Link>
                 <Link className="svc-card__btn svc-card__btn--solid" to="/contact#consultation">
                   {hero.secondaryCta}
                   <span className="svc-card__chevron" aria-hidden>
